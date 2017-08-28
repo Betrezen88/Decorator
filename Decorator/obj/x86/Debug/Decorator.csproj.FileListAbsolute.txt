@@ -1,0 +1,4 @@
+E:\Workspace\C#\Decorator\Decorator\Decorator\bin\Debug\Decorator.exe
+E:\Workspace\C#\Decorator\Decorator\Decorator\bin\Debug\Decorator.pdb
+E:\Workspace\C#\Decorator\Decorator\Decorator\obj\x86\Debug\Decorator.exe
+E:\Workspace\C#\Decorator\Decorator\Decorator\obj\x86\Debug\Decorator.pdb

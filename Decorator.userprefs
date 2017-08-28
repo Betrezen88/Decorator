@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Decorator\Decorator.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Decorator\Program.cs">
+    <Files>
+      <File FileName="Decorator\Program.cs" Line="16" Column="4" />
+      <File FileName="Decorator\Beverage.cs" Line="5" Column="9" />
+      <File FileName="Decorator\Coffee.cs" Line="5" Column="9" />
+      <File FileName="Decorator\BevrageAddition.cs" Line="13" Column="30" />
+      <File FileName="Decorator\Milk.cs" Line="14" Column="35" />
+      <File FileName="Decorator\Sugar.cs" Line="19" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
