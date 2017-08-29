@@ -2,19 +2,23 @@
 
 namespace Decorator
 {
-	public class Coffee : Beverage
+	public class Coffee : IBeverage
 	{
-		public Coffee () {}
-
-		public override String Name()
+		private string name = "Coffee";
+		public string Name
 		{
-			return "Coffee";
+			get { return name; }
+			set { name = value; }
 		}
 
-		public override float Price()
+		private float price = 1.5f;
+		public float Price
 		{
-			return 1.5f;
+			get { return price; }
+			set { price = value; }
 		}
+
+		public Coffee() {}
 	}
 }
 

@@ -6,13 +6,11 @@ namespace Decorator
 	{
 		public static void Main (string[] args)
 		{
-			Coffee coffee = new Coffee();
+			 var coffee = new Coffee ();
+			 var milk = new Milk (coffee);
+			 var sugar = new Sugar (milk);
 
-			Milk milk = new Milk(coffee);
-
-			Sugar sugar = new Sugar (milk);
-
-			Console.WriteLine (sugar.Name() + ", price: " + sugar.Price());
+			Console.WriteLine (sugar.Name + ", price: " + sugar.Price);
 		}
 	}
 }

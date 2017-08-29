@@ -40,6 +40,8 @@
     <Compile Include="BevrageAddition.cs" />
     <Compile Include="Milk.cs" />
     <Compile Include="Sugar.cs" />
+    <Compile Include="IBeverage.cs" />
+    <Compile Include="IBeverageAddition.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

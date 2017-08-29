@@ -2,21 +2,32 @@
 
 namespace Decorator
 {
-	public class Milk : BeverageAddition
+	public class Milk : IBeverage, IBeverageAddition
 	{
-		public Milk(Beverage beverage) : base(beverage)
+		private IBeverage beverage;
+		public IBeverage Beverage
 		{
-
+			get { return beverage; }
+			set { beverage = value; }
 		}
 
-		public override String Name()
+		private string name = ", milk";
+		public string Name
 		{
-			return Base.Name () + ", milk";
+			get { return Beverage.Name + name; }
+			set { name = value; }
 		}
 
-		public override float Price ()
+		private float price = 0.5f;
+		public float Price
 		{
-			return Base.Price() + 0.5f;
+			get { return Beverage.Price + price; }
+			set { price = value; }
+		}
+
+		public Milk (IBeverage beverage)
+		{
+			Beverage = beverage;
 		}
 	}
 }
